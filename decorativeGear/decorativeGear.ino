@@ -11,9 +11,7 @@ Ultrasonic us4(8, 9);
 int in = 200;
 
 void setup() {
-  Serial.begin(9600);
-  pinMode(2, OUTPUT);
-  digitalWrite(2, LOW);
+ 
 }
 
 void loop() {
